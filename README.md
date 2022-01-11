@@ -1,4 +1,4 @@
-# <eweテニス>
+# eweテニス
 
 ## サイト概要
 テニスが初心者でもわかりやすく物が買えるショッピングサイト。
@@ -11,8 +11,7 @@
 
 
 ### サイトテーマ
-テニスがわからない人でも興味が持てるようなショッピングサイト
-テニスに必要な最低限の物やテニスの説明しながら、所々にこの場面でこの物を使ったら便利な物など、わかりやすく使いやすいもの
+テニスがわからない人でも興味が持てるショッピングサイト
 
 ### テーマを選んだ理由
 今の現状コロナが流行って外で遊ぶのが流行っていると思うので、
@@ -47,10 +46,6 @@ https://docs.google.com/spreadsheets/d/1qbGBE68Yg4RPKoEE-BasFEzx2nxCXKUPNbGaN_Hv
 - IDE：Cloud9
 
 ## 使用素材
-WINDSOR RACKET SHOP
-https://www.windsorracket.co.jp/shop/default.aspx
-
-
-YAHOO! JAPAN ショッピング
-https://shopping.yahoo.co.jp/search?first=1&ss_first=1&ts=1641401802&mcr=1fe6f1ed7b51a396462eb6b6756d77e2&area=13&astk=&aq=&oq=&p=%E3%83%86%E3%83%8B%E3%82%B9%E3%82%A6%E3%82%A7%E3%82%A2&sc_i=shp_pc_search_searchBox_2&sretry=1
+Shutterstock
+https://www.shutterstock.com/ja/search/%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%88
 
