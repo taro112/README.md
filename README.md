@@ -15,35 +15,38 @@
 自分の経験上、テニスをする事で、ストレス発散だけでなく体力づくり、ダイエットなどにも貢献できると考えています。
 
 ### ターゲットユーザ
- - 20代〜50代で男女問わず
- - テニスに興味を持った人や、運動がしたい人
- - テニス用品の物が欲しい人
+ - 20代〜50代で男女問わず  
+ - テニスに興味を持った人や、運動がしたい人  
+ - テニス用品の物が欲しい人  
  - スクールやレンタルテニスコートを知りたい人
 
 ### 主な利用シーン
- - テニスに興味が湧いた時
- - テニスをはじめる時に必要な物が何かを調べたい時
- - テニス用品で欲しい商品が明確な時
+ - テニスに興味が湧いた時  
+ - テニスをはじめる時に必要な物が何かを調べたい時  
+ - テニス用品で欲しい商品が明確な時  
  - スクールやレンタルテニスコートの場所を調べたい時
 
 
 ## 設計書
-https://app.diagrams.net/#G1_b9rbdHfdnJt-IZHo_GLLyOa1dTI-Gej
+https://app.diagrams.net/#G1_b9rbdHfdnJt-IZHo_GLLyOa1dTI-Gej  
 
-https://docs.google.com/spreadsheets/d/1FMSf4ir59d8qkQImL8GfWG9o-X0a46VM/edit#gid=549108681
+https://docs.google.com/spreadsheets/d/1FMSf4ir59d8qkQImL8GfWG9o-X0a46VM/edit#gid=549108681  
 
-https://docs.google.com/spreadsheets/d/1iFL3nhJmHPB6IDaMdwUjN7UJyCExy3m6iFbMGsAVhxM/edit#gid=634542038
+https://docs.google.com/spreadsheets/d/1iFL3nhJmHPB6IDaMdwUjN7UJyCExy3m6iFbMGsAVhxM/edit#gid=634542038  
 
 ## チャレンジ要素一覧
 https://docs.google.com/spreadsheets/d/1qbGBE68Yg4RPKoEE-BasFEzx2nxCXKUPNbGaN_HvIHg/edit#gid=0
 
 ## 開発環境
-- OS：Linux(CentOS)
-- 言語：HTML,CSS,Ruby,
-- フレームワーク：Ruby on Rails
+- OS：Linux(CentOS)  
+- 言語：HTML,CSS,Ruby,  
+- フレームワーク：Ruby on Rails  
 - IDE：Cloud9
 
 ## 使用素材
-Shutterstock
-https://www.shutterstock.com/ja/search/%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%88
+Shutterstock  
+https://www.shutterstock.com/ja/search/%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%88  
+
+unsplash  
+https://unsplash.com/
 
