@@ -1,0 +1,28 @@
+// Place all the styles related to the customers::homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home{
+    margin-left: 300px;
+}
+
+.about{
+    text-align: center;
+}
+
+.merchandise{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    
+}
+
+.homes_index{
+    display: table;
+    table-layout: fixed;
+}
+
+.sell{
+    display: table-cell;
+}
+

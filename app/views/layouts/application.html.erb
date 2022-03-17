@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ewe_tennis</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% if customer_signed_in? %>
+    <div class="header">
+
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                <%= link_to "マイページ" , customers_my_page_path %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "商品一覧" , items_path %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "カート" , cart_items_path %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "ログアウト" , destroy_customer_session_path, method: :delete %>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="ewe_tennis">
+            <%= link_to "ewe_tennis" , root_path %>
+        </h1>
+        <p class ="customer_name">ようこそ<%= current_customer.first_name %>さん</p>
+    </div>
+    <% elsif admin_signed_in? %>
+    <div class="header">
+
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                <%= link_to "商品一覧" , admins_items_path  %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "会員一覧" , admins_customers_path  %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "注文履歴一覧" , admin_path   %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "ジャンル一覧" , admins_genres_path  %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "ログアウト" , destroy_admin_session_path, method: :delete  %>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="ewe_tennis">
+            <%= link_to "ewe_tennis" , root_path %>
+        </h1>
+    </div>
+    <% else %>
+    <div class="header">
+
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                <%= link_to "About" , about_path %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "商品一覧" , items_path  %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "新規登録" , new_customer_registration_path  %>
+                </li>
+                <li class="nav-list-item">
+                <%= link_to "ログイン" , new_customer_session_path  %>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="ewe_tennis">
+            <%= link_to "ewe_tennis" , root_path %>
+        </h1>
+    </div>
+    <% end %>
+    
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<h1 class = "unsubscribe">本当に退会しますか？</h1>
+
+<p class = "unsubscribe_text">退会すると、会員登録情報や</p></br>
+<p class = "unsubscribe_text">これまでの購入履歴の閲覧できなくなります。</p></br>
+<p class = "unsubscribe_text">退会する場合は、「退会する」をクリックしてください。</p>
+
+<table class = "withdrawal">
+  <tr>
+    <th class ="withdrawal_link"><%= link_to "退会しない", customers_my_page_path %></th>   
+    <th class ="withdrawal_link"><%= link_to "退会する", customers_withdrawal_path, method: :patch, data: { confirm: '本当に退会しますか？' } %></th>
+  </tr>
+</table>
+
